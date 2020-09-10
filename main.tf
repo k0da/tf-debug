@@ -5,5 +5,5 @@ data "kubernetes_secret" "foo" {
   }
 }
 output "secret" {
- value = split(“=”, data.kubernetes_secret.foo.data.admin-creds)[1]
+ value = data.kubernetes_secret.foo.data.admin-creds
 }
