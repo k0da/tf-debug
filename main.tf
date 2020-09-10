@@ -1,7 +1,7 @@
 data "kubernetes_secret" "foo" {
   metadata {
     name = var.s_name
-    namsespace = var.s_ns
+    namespace = var.s_ns
   }
 }
 output "secret" {

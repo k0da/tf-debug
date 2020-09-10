@@ -1,3 +1,2 @@
-variable "token_key" {}
 variable "s_name" {}
-variable "s_namespace" {}
+variable "s_ns" {}
