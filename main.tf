@@ -4,6 +4,7 @@ data "kubernetes_secret" "foo" {
     namespace = var.s_ns
   }
 }
+
 output "secret" {
  value = data.kubernetes_secret.foo.data.admin-creds
 }
