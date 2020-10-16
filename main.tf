@@ -4,6 +4,9 @@ output "secret1" {
 output "secret2" {
  value = var.secret2
 }
+output "secret3" {
+ value = var.secret2
+}
 output "envsecret1" {
  value = var.envsecret1 
 }
