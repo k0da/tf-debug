@@ -1,6 +1,7 @@
 variable "config1" {}
 variable "config2" {}
 variable "config3" {}
+variable "config4" {}
 variable "secret1" {}
 variable "secret2" {}
 variable "envconfig1" {}

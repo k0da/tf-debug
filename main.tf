@@ -19,6 +19,9 @@ output "config2" {
 output "config3" {
  value = var.config3
 }
+output "config4" {
+ value = var.config4
+}
 output "envconfig1" {
  value = var.envconfig1 
 }
